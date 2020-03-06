@@ -1,0 +1,6 @@
+* text eol=lf
+* text encoding=utf-8
+*.jpg binary
+*.png binary
+.gitignore export-ignore
+.gitattributes export-ignore

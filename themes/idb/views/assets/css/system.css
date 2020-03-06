@@ -1,0 +1,385 @@
+.bfQuickMode .bfbs3-form-group-actions, .bfQuickMode .form-group-actions{
+    margin-bottom: 25px;
+    min-height: 34px;
+}
+
+.bfQuickMode .bfbs3-btn, .bfQuickMode .btn{
+    font-size: 14px
+}
+
+.bfQuickMode .bfSummarize{
+    vertical-align: middle !important;
+}
+
+/* fixing if a template has the idea to change that (e.g. T3) */
+.bfQuickMode fieldset .form-group, .bfQuickMode .form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* fixing if a template has the idea to change that (e.g. T3) */
+.bfQuickMode section [class^="col-"], .bfQuickMode section [class*=" col-"],
+.bfQuickMode fieldset [class^="col-"], .bfQuickMode fieldset [class*=" col-"]{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bfQuickMode .bfbs3-nonform-control, .bfQuickMode .nonform-control{
+    display: inline-block;
+    vertical-align: middle;
+    width: 69%;
+}
+
+@media all and (max-width: 767px) {
+
+    .bfQuickMode .bfbs3-nonform-control, .bfQuickMode .nonform-control{
+        width: 100%;
+    }
+}
+
+.bfQuickMode input[type=file] {
+    display: inline-block;
+}
+
+
+
+.bfQuickMode input[type=checkbox], .bfQuickMode .bfbs3-checkbox-inline input[type=checkbox], .bfQuickMode .bfbs3-radio input[type=radio], .bfQuickMode .bfbs3-radio-inline input[type=radio],
+.bfQuickMode .checkbox-inline input[type=checkbox], .bfQuickMode .radio input[type=radio], .bfQuickMode .radio-inline input[type=radio] {
+    position: relative;
+    margin-right: 5px;
+}
+
+.bfQuickMode .bfbs3-radio-inline.bfbs3-inline, .bfQuickMode .bfbs3-checkbox-inline.bfbs3-inline,
+.bfQuickMode .bfbs3-radio-inline.inline, .bfQuickMode .checkbox-inline.bfbs3-inline {
+    padding-top: 5px;
+}
+
+.bfQuickMode .bfbs3-radio-form-group, .bfQuickMode .bfbs3-checkbox-form-group,
+.bfQuickMode .radio-form-group, .bfQuickMode .checkbox-form-group {
+    padding-top: 5px !important;
+}
+
+.bfQuickMode .bfbs3-other-form-group{
+    padding-top: 0 !important;
+}
+
+.bfQuickMode .bfbs3-radio-inline .ff_elem, .bfQuickMode .bfbs3-checkbox-inline .ff_elem,
+.bfQuickMode .radio-inline .ff_elem, .bfQuickMode .checkbox-inline .ff_elem {
+    margin-top: -3px;
+}
+
+@media all and (max-width: 767px) {
+
+    .bfQuickMode .bfbs3-radio-inline.bfbs3-inline, .bfQuickMode .bfbs3-checkbox-inline.bfbs3-inline,
+    .bfQuickMode .bfbs3-radio-inline.inline, .bfQuickMode .checkbox-inline.bfbs3-inline {
+        padding-top: 0;
+    }
+
+    .bfQuickMode .bfbs3-radio-form-group, .bfQuickMode .bfbs3-checkbox-form-group,
+    .bfQuickMode .radio-form-group, .bfQuickMode .checkbox-form-group {
+        padding-top: 0;
+    }
+}
+
+.bfQuickMode .bfElemWrap {
+    margin-bottom: 15px;
+}
+
+.bfQuickMode section,
+.bfQuickMode fieldset{
+    padding-right: 25px;
+}
+
+.bfQuickMode section:last-child,
+.bfQuickMode fieldset:last-child{
+    padding-right: 0px;
+}
+
+.bfQuickMode .bfbs3-row, .bfQuickMode .row {
+    margin-left: -15px;
+    margin-right: 0;
+}
+
+.bfQuickMode section .bfbs3-row, .bfQuickMode section .row,
+.bfQuickMode fieldset .bfbs3-row, .bfQuickMode fieldset .row{
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.bfQuickMode section section .bfbs3-row, .bfQuickMode section section .row,
+.bfQuickMode fieldset .bfbs3-row, .bfQuickMode fieldset .row{
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+@media all and (max-width: 767px) {
+
+    .bfQuickMode section,
+    .bfQuickMode fieldset{
+        padding-right: 0px;
+    }
+
+    .bfQuickMode section .bfbs3-row, .bfQuickMode section .row,
+    .bfQuickMode fieldset .bfbs3-row, .bfQuickMode fieldset .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bfQuickMode section section .bfbs3-row, .bfQuickMode section section .row,
+    .bfQuickMode fieldset .bfbs3-row, .bfQuickMode fieldset .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* fixing if a template has the idea to deal with that */
+    .bfQuickMode section [class^="col-"], .bfQuickMode section [class*=" col-"],
+    .bfQuickMode fieldset [class^="col-"], .bfQuickMode fieldset [class*=" col-"],
+    .bfQuickMode section [class^="bfbs3-col-"], .bfQuickMode section [class*=" bfbs3-col-"],
+    .bfQuickMode fieldset [class^="bfbs3-col-"], .bfQuickMode fieldset [class*=" bfbs3-col-"]{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/** Inputs **/
+
+
+.bfQuickMode .bfbs3-form-group .bfbs3-col-sm-12, .bfQuickMode .form-group .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bfQuickMode .bfSignature {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.bfQuickMode .bfSignature canvas {
+    width: 100%;
+    height: 200px;
+}
+
+.bfQuickMode .bfSignatureCanvasBorder {
+    width: 100%;
+    height: 210px;
+    border: 5px solid #F0F0FF;
+    border: 5px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 5px;
+}
+
+.bfCalendarResponsiveContainer .picker__button--today,
+.bfCalendarResponsiveContainer .picker__button--clear {
+    color: black !important;
+    outline: none !important;
+    border: none !important;
+    text-shadow: none !important;
+    height: auto !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.bfCalendarResponsiveContainer .picker__select--year, .bfCalendarResponsiveContainer .picker__select--month {
+    float: none !important;
+    margin-left: .25em !important;
+    margin-right: .25em !important;
+    font-size: .8em !important;
+    display: relative !important;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 1px !important;
+}
+
+@media (min-height: 33.875em) {
+    .bfCalendarResponsiveContainer .picker__box {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 24.5em) {
+    .bfCalendarResponsiveContainer .picker__select--month, .bfCalendarResponsiveContainer .picker__select--year {
+        font-size: .8em !important;
+        margin-top: -.5em !important;
+    }
+}
+
+.bfQuickMode .bfbs3-glyphicon-asterisk {
+    font-size: 9px;
+    vertical-align: top;
+    color: red;
+}
+
+.bfQuickMode input[type=text],
+.bfQuickMode textarea,
+.bfQuickMode select,
+.bfQuickMode .uneditable-input {
+
+     min-height: 32px;
+}
+
+.bfQuickMode .bfbs3-form-inline .bfbs3-form-group, .bfQuickMode .form-inline .form-group {
+    width: 100%;
+}
+
+.bfQuickMode textarea.bfbs3-form-control, .bfQuickMode textarea.form-control {
+    height: 200px;
+}
+
+.bfQuickMode .bfbs3-form-inline .bfbs3-form-control, .bfQuickMode .form-inline .form-control {
+    width: 69%;
+}
+
+.bfQuickMode .bfbs3-custom-form-control, .bfQuickMode .custom-form-control{
+
+    width: 100% !important;
+}
+
+.bfQuickMode .bfbs3-jumbotron, .bfQuickMode .jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bfQuickMode textarea {
+    height: 300px;
+}
+
+/** Labels **/
+@media all and (max-width: 767px) {
+
+    .bfQuickMode .bfSignature {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .bfQuickMode .bfbs3-form-inline .bfbs3-control-label, .bfQuickMode .form-inline .control-label {
+        max-width: 90% !important;
+        min-width: 90% !important;
+        width: 90% !important;
+        display: block !important;
+    }
+
+    .bfQuickMode input[type=text],
+    .bfQuickMode textarea,
+    .bfQuickMode select,
+    .bfQuickMode .bfbs3-uneditable-input,
+    .bfQuickMode .uneditable-input {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .bfQuickMode .bfbs3-input-group{
+        display: block;
+    }
+
+    .bfQuickMode .bfbs3-input-group input, .bfQuickMode .input-group {
+        width: 185px;
+        min-width: 185px;
+        max-width: 185px;
+    }
+}
+
+/** Safari Hack **/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+    .bfQuickMode fieldset legend {
+        margin-bottom: 0px;
+    }
+
+    .bfQuickMode fieldset .bfbs3-row, .bfQuickMode fieldset .row {
+        padding-top: 18px;
+    }
+
+}
+
+.bfQuickMode .bfbs3-form-group .bfbs3-control-label, .bfQuickMode .form-group .control-label {
+    width: 30%;
+    min-width: 110px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.bfLabelBlock {
+    display: block !important;
+}
+
+/** Fieldset **/
+.bfQuickMode fieldset {
+    margin-bottom: 3px;
+}
+
+/** Buttons **/
+.bfQuickMode .bfCancelButton {
+    margin-left: 5px;
+}
+
+/** Captcha **/
+.bfQuickMode #recaptcha_image img{
+    margin-bottom: 15px;
+}
+
+@media all and (max-width: 767px) {
+    .bfQuickMode #recaptcha_image, .bfQuickMode #recaptcha_image img {
+        /** we must force relative dimensions for responsivness **/
+        width: 95% !important;
+        height: 60px !important;
+    }
+
+    .bfQuickMode .input-recaptcha {
+        margin-bottom: 8px;
+    }
+
+    .bfCaptchaField {
+        width: 84%;
+        max-width: 84%;
+        min-width: 84%;
+    }
+}
+
+.ff_capimg {
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+/* ##### Uploader ##### */
+
+#bfFileQueue {
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+#bfSubmitMessage {
+    border: 2px solid #E5E5E5;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    padding: 10px;
+    width: 350px;
+    -moz-border-radius-bottomright: 50px 25px;
+    border-bottom-right-radius: 50px 25px;
+}
+
+#bfFileQueue {
+    border: 2px solid #E5E5E5;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    padding: 10px;
+    width: 350px;
+    -moz-border-radius-bottomright: 50px 25px;
+    border-bottom-right-radius: 50px 25px;
+    z-index: 1100;
+}
+
+.bfFileQueueItem {
+    border: 2px solid #E5E5E5;
+    background-color: #F5F5F5;
+    margin: 5px;
+    padding: 10px;
+}

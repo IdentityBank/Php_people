@@ -1,0 +1,188 @@
+.wizard {
+    margin: 10px auto;
+    background: transparent;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin: 10px auto;
+    margin-bottom: 0;
+    border-bottom-color: #091973;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #36a3f7;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.login-btn {
+    background-color: #777;
+    border: #777;
+    padding-left:22px;
+    padding-right: 22px;
+    color: white;
+    border-radius: 0;
+}
+
+.login-btn:hover {
+    color: white;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: transparent;
+    border: 2px solid #36a3f7;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tab i {
+    color: #36a3f7;
+}
+
+.wizard li.active span.round-tab {
+    background: #F58735;
+    border: 2px solid #D47B35;
+
+}
+
+.wizard li.active span.round-tab i {
+    color:white;
+}
+
+.wizard li.done span.round-tab {
+    background: #36a3f7;
+    border: 2px solid #0a6aa1;
+}
+
+.wizard li.done span.round-tab i {
+    color: white;
+}
+
+.wizard li.error span.round-tab {
+    background: rgb(201, 48, 44);
+    border: 2px solid rgb(172, 41, 37);
+}
+
+.wizard li.error span.round-tab i {
+    color: white;
+}
+
+span.round-tab:hover {
+    color: #36a3f7;
+    border: 2px solid #36a3f7;
+}
+
+.wizard .nav-tabs > li {
+    width: 20%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #D47B35;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #D47B35;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    background: transparent;
+}
+
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+.wizard a, a:hover, a:focus, a:active {
+    color: white !important;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+@media ( max-width: 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}

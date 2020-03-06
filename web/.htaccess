@@ -1,0 +1,20 @@
+# * ********************************************************************* *
+# *   Copyright (C) 2019 by Identity Bank EU                              *
+# * ********************************************************************* *
+
+RewriteEngine on
+
+## Make all calls use HTTPS (SSL)
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,QSA,L]
+
+# If a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise forward it to index.php
+RewriteRule . index.php
+
+################################################################################
+#                                End of file                                   #
+################################################################################
