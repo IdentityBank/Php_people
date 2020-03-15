@@ -118,10 +118,7 @@ $params = [
                         '@app/themes/metronic/modules/peopleuser/views/business/partials/businessName',
                         ['businessName' => $businessName]
                     ) ?>
-
-
-
-                    <div class="kt-portlet idb-no-margin kt-portlet--bordered">
+                    <div class="kt-portlet idb-portlet idb-no-margin kt-portlet--bordered">
                         <div class="kt-portlet__body">
                             <?= GridView::widget(
                                 [
