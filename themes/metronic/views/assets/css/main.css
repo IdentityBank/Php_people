@@ -302,3 +302,15 @@ body .fix-line-height {
     right: -9px;
     background: rgba(27, 17, 44, .8) !important;
 }
+@media (max-width: 1024px) {
+    .idb-portlet.kt-portlet {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .idb-portlet.kt-portlet .kt-portlet__body {
+        padding-left: 0;
+        padding-right: 0;
+        overflow-y: auto;
+    }
+}
