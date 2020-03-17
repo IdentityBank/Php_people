@@ -190,9 +190,9 @@ class IdbStorageController extends IdbController
         } catch (Exception $e) {
             throw new NotFoundHttpException();
         }
-        $options['peopleUpload'] = true;
-        if (ArrayHelper::getValue(ArrayHelper::getValue($metadata, 'options', []), 'peopleUpload', 'on') === 'off') {
-            $options['peopleUpload'] = false;
+        $options['peopleUpload'] = false;
+        if (ArrayHelper::getValue(ArrayHelper::getValue($metadata, 'options', []), 'peopleUpload', 'off') === 'on') {
+            $options['peopleUpload'] = true;
         }
 
         $dataProvider = new IdbStorageItemDataProvider();
