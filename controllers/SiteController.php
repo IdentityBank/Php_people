@@ -98,6 +98,7 @@ class SiteController extends IdbController
      *
      * @return string|\yii\web\Response
      * @throws \yii\base\ExitException
+     * @throws Exception
      */
     public function actionLogin($post = null)
     {
@@ -128,7 +129,7 @@ class SiteController extends IdbController
             $login = IdbPeopleUser::createLogin($userId, $accountNumber);
             $userAccount = IdbPeopleUser::findUserAccountByLogin($login);
             if ($userAccount) {
-                PeopleAuthlog::error($userAccount->uid, ['p' => strlen($model->accountPassword) . "_" . time()]);
+                PeopleAuthlog::findLatestErrors($model);
             }
         }
 
